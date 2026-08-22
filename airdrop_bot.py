@@ -1,3 +1,9 @@
+
+Conversations
+1% of 15 GB used
+Terms · Privacy · Program Policies
+Last account activity: 0 minutes ago
+Details
 #!/usr/bin/env python3
 """
 Crypto Airdrop Analysis Telegram Bot
@@ -774,7 +780,8 @@ def main():
     print("\n✅ Bot is running! Send /start to begin.\n")
     
     try:
-        app.run_polling(allowed_updates=Update.ALL_TYPES)
+        # Run with drop_pending_updates for Render stability
+        app.run_polling(allowed_updates=Update.ALL_TYPES, drop_pending_updates=True)
     except KeyboardInterrupt:
         logger.info("Bot stopped by user.")
     except Exception as e:
