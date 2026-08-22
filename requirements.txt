@@ -1,0 +1,14 @@
+# Crypto Airdrop Analysis Bot - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Telegram Bot Framework (v20+ with async/await support)
+python-telegram-bot==20.3
+
+# Async HTTP client for API calls
+aiohttp==3.8.5
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Optional: For enhanced logging
+colorlog==6.7.0
