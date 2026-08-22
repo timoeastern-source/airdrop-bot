@@ -1,0 +1,5 @@
+# Crypto Airdrop Analysis Bot - Render.com Compatible
+# Ultra-stable versions tested on Render
+
+python-telegram-bot==20.0
+python-dotenv==1.0.1
