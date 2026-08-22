@@ -1,5 +1,5 @@
 # Crypto Airdrop Analysis Bot - Render.com Compatible
 # Simplified version - works with mock data (no external APIs needed)
 
-python-telegram-bot==20.8
+python-telegram-bot==20.1
 python-dotenv==1.0.1
